@@ -3,7 +3,7 @@
 Package.describe({
   name: 'materialize:materialize',  // http://atmospherejs.com/materialize/materialize
   summary: 'Materialize (official): A modern responsive front-end framework based on Material Design',
-  version: '0.97.6',
+  version: '0.97.7',
   git: 'https://github.com/Dogfalo/materialize.git'
 });
 
@@ -60,6 +60,7 @@ Package.onUse(function (api) {
     'sass/components/_dropdown.scss',
     'sass/components/_global.scss',
     'sass/components/_grid.scss',
+    'sass/components/_icons-material-design.scss',
     'sass/components/_materialbox.scss',
     'sass/components/_mixins.scss',
     'sass/components/_modal.scss',
